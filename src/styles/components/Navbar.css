@@ -1,0 +1,35 @@
+nav {
+  margin-top: 0;
+  position: absolute;
+  top: 5%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+button {
+  margin: 0 10px;
+  background: transparent;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: #FFEE58!important;
+  border-color: #FFEE58;
+  font-family: 'jedi';
+  color: #ccc;
+  font-size: 1em;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+button:hover {
+  color: rgb(243, 137, 51);
+  border-color: rgb(251, 255, 43);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
